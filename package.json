@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "formidable": "^3.5.1",
+    "next": "14.2.9",
+    "qrcode": "^1.5.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.9"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
