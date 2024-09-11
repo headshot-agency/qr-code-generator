@@ -125,7 +125,6 @@ export default function QRCodeGenerator() {
       {qrCode && (
         <div className="mt-8 p-6 bg-gray-800 rounded-lg shadow-lg text-center border-2 border-yellow-500">
           <img src={qrCode} alt="Generated QR Code" className="mx-auto mb-4 max-w-full h-auto" />
-          <p className="text-yellow-400 mb-4">This QR Code includes the Vault-Tec logo at its center.</p>
           <button
             onClick={downloadQRCode}
             className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-6 rounded-full transition-colors duration-300"
