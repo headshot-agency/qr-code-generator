@@ -89,7 +89,7 @@ export default function QRCodeGenerator() {
               value={input}
               onChange={handleInputChange}
               placeholder="Enter a link"
-              className="w-full p-3 bg-gray-700 border-b-2 border-yellow-500 focus:border-yellow-400 transition-colors duration-300 text-yellow-100 placeholder-yellow-700"
+              className="w-full p-3 bg-gray-700 border-b-2 border-yellow-500 focus:border-yellow-400 transition-colors duration-300 text-yellow-400 placeholder-yellow-400"
             />
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between">
