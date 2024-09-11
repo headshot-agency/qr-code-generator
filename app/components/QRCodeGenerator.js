@@ -80,7 +80,7 @@ export default function QRCodeGenerator() {
             Your browser does not support the video tag.
           </video>
           <div className="absolute inset-0 bg-gray-900 bg-opacity-60"></div>
-          <h1 className="absolute inset-0 flex items-center justify-center text-3xl sm:text-4xl md:text-5xl font-bold text-yellow-400 text-center px-4" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>Vault-Tec QR Generator</h1>
+          <h1 className="absolute inset-0 flex items-center justify-center text-3xl sm:text-4xl md:text-5xl font-bold text-yellow-400 text-center px-4" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>ದಿ QR Generator</h1>
         </div>
         <form onSubmit={generateQRCode} className="p-4 sm:p-6 md:p-8 bg-gray-800">
           <div className="mb-4 sm:mb-6">
