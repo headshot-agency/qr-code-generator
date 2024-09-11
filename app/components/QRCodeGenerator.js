@@ -94,14 +94,14 @@ export default function QRCodeGenerator() {
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between">
             <div className="w-full sm:w-auto mb-4 sm:mb-0 relative">
-              <label className="cursor-pointer w-full sm:w-auto bg-yellow-600 text-gray-900 rounded-full px-4 py-2 hover:bg-yellow-400 transition-colors duration-300 inline-block">
+              {/* <label className="cursor-pointer w-full sm:w-auto bg-yellow-600 text-gray-900 rounded-full px-4 py-2 hover:bg-yellow-400 transition-colors duration-300 inline-block">
                 <span>Choose File</span>
                 <input
                   type="file"
                   onChange={handleFileChange}
                   className="hidden"
                 />
-              </label>
+              </label> */}
               {fileName && (
                 <span className="ml-2 text-yellow-400 break-all">{fileName}</span>
               )}
